@@ -13,6 +13,7 @@
 		0B16AD8026AB0BCF003D3B3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B16AD7E26AB0BCF003D3B3F /* Main.storyboard */; };
 		0B16AD8226AB0BD1003D3B3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B16AD8126AB0BD1003D3B3F /* Assets.xcassets */; };
 		0B16AD8526AB0BD1003D3B3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B16AD8326AB0BD1003D3B3F /* LaunchScreen.storyboard */; };
+		0B16AD9726AB1843003D3B3F /* PortfolioTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B16AD9626AB1843003D3B3F /* PortfolioTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0B16AD8126AB0BD1003D3B3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B16AD8426AB0BD1003D3B3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B16AD8626AB0BD1003D3B3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B16AD9626AB1843003D3B3F /* PortfolioTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				0B16AD7826AB0BCF003D3B3F /* AppDelegate.swift */,
 				0B16AD7A26AB0BCF003D3B3F /* SceneDelegate.swift */,
 				0B16AD7C26AB0BCF003D3B3F /* ViewController.swift */,
+				0B16AD9626AB1843003D3B3F /* PortfolioTableViewController.swift */,
 				0B16AD7E26AB0BCF003D3B3F /* Main.storyboard */,
 				0B16AD8126AB0BD1003D3B3F /* Assets.xcassets */,
 				0B16AD8326AB0BD1003D3B3F /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				0B16AD7D26AB0BCF003D3B3F /* ViewController.swift in Sources */,
 				0B16AD7926AB0BCF003D3B3F /* AppDelegate.swift in Sources */,
+				0B16AD9726AB1843003D3B3F /* PortfolioTableViewController.swift in Sources */,
 				0B16AD7B26AB0BCF003D3B3F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 327B2F3V2J;
 				INFOPLIST_FILE = SmartPortfolio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 327B2F3V2J;
 				INFOPLIST_FILE = SmartPortfolio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
