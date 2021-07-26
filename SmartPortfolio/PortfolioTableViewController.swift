@@ -40,6 +40,7 @@ class PortfolioTableViewController: UITableViewController {
         
         cell.imageView?.image = UIImage(named: photoNameArray[indexPath.row])
         cell.textLabel?.numberOfLines = 0
+        
 //        cell.textLabel?.text = photoNameArray[indexPath.row]
         
         
